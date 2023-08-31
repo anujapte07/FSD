@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <nav>
+        <ul>
+            <li class="brand"><img src="music-app-logo.png" alt="Scionic">Scionic</li>
+            <li class="home">Home</li>
+            <li class="about">About</li>
+        </ul>
+    </nav>
+    
+
+    
+
+
+    <div class="container">
+        <div class="cover">
+            <img src="cover.png">
+        </div>
+        <div class="heading">Made For You</div>
+        
+        <div class="songlist">
+            <div class="songitem">
+                <li class="picandtitle"><img src="a.jpg"><span class="songname">Tornado of Souls</span></li>
+                <span class="songlistplay">    
+                    <span class="timestamp">5:22</i></span>
+                    <i id="1" class="songitemplay fa-solid fa-play"></i>
+                </span>    
+            </div>
+            <div class="songitem">
+                <li class="picandtitle"><img src="a.jpg"><span class="songname">One</span></li>
+                <span class="songlistplay">    
+                    <span class="timestamp">7:27</i></span>
+                    <i id="2" class="songitemplay fa-solid fa-play"></i>
+                </span>    
+            </div>
+            <div class="songitem">
+                <li class="picandtitle"><img src="a.jpg"><span class="songname">Master of Puppets</span></li>
+                <span class="songlistplay">    
+                    <span class="timestamp">8:36</i></span>
+                    <i id="3" class="songitemplay fa-solid fa-play"></i>
+                </span>    
+            </div>
+            <div class="songitem">
+                <li class="picandtitle"><img src="a.jpg"><span class="songname">Fade to Black</span></li>
+                <span class="songlistplay">    
+                    <span class="timestamp">6:55</i></span>
+                    <i id="4" class="songitemplay fa-solid fa-play"></i>
+                </span>    
+            </div>
+            <div class="songitem">
+                <li class="picandtitle"><img src="a.jpg"><span class="songname">Symbolic</span></li>
+                <span class="songlistplay">    
+                    <span class="timestamp">6:32</i></span>
+                    <i id="5" class="songitemplay fa-solid fa-play"></i>
+                </span>    
+            </div>
+            <div class="songitem">
+                <li class="picandtitle"><img src="a.jpg"><span class="songname">Bite the Pain</span></li>
+                <span class="songlistplay">    
+                    <span class="timestamp">4:30</i></span>
+                    <i id="6" class="songitemplay fa-solid fa-play"></i>
+                </span>    
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+
+    <div class="bottom">
+        <input type="range" name="" id="myprogress" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-play" id="masterplay"></i>
+            <i class="fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="playgif">
+            <img src="playgif.gif" id="playgif"><span id="masterSongName">Tornado of Souls</span>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/9a03ccabf1.js" crossorigin="anonymous"></script>
+    <script src ="script.js"></script>
+</body>
+</html>
