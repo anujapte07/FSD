@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "bootstrap";
+
+.loginpage{
+    margin: auto auto;
+    margin-left: rem;
+    
+}
+.login{
+    background-color: rgb(50, 53, 56);
+    padding: 8rem;
+    margin: auto auto;
+    width: 40%;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.logreg{
+    width: 40%;
+}
+
+.tab-panel{
+    background-color: rgb(50, 53, 56);
+    width: 40%;
+    margin: auto auto;
+    color: white;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.continuetosite{
+    margin: auto auto;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4c8ad568;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    justify-self: center;
+    cursor: pointer;
+  }
+
+.supersizer {
+    background: url('music-heavy-metal-band-bands-wallpaper-preview.jpg');
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.about{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 5rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.img-fluid img{
+    width: 20%;
+}
+nav ul li{
+    padding: 0 0.75rem;
+    cursor: pointer;
+}
+.brand img{   
+    padding: 0.5rem;   
+    border-radius: 0.8125rem;
+    width: 3.125rem;
+    
+}
+
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.home:hover{
+    background-color: grey;
+    transition: 0.5s;
+}
+.about:hover{
+    background-color: grey;
+    transition: 0.5s;
+}
+.middle{
+    background-color: rgb(50, 53, 56);
+    border-radius: 0.5625rem;
+    padding: 0rem;
+    min-height: 75vh;
+    width: 70%;
+    margin: 1.25rem; 
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.cover img{
+    border-top-left-radius: 0.5625rem;
+    border-top-right-radius: 0.5625rem;
+    width: 100%;
+    padding: 0;
+    object-fit: cover;
+
+}
+
+.heading{
+    font-size: 3.125rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: -5.625rem;
+    margin-left: 1.25rem;
+}
+
+.cover{
+    align-items: center;
+}
+
+.bottom{
+    position: sticky;
+    height: 7.5rem;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.625rem;
+}
+.icons i{
+    padding:0.625rem;
+    width: 7.5rem;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myprogress{
+    margin-top: 1.5rem;
+    width: 50vw;
+    text-align: center;
+    cursor: pointer;
+
+}
+.songlist{
+    margin-top: 1.875rem;
+}
+.songitem{
+    height: 3.125rem;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 0.75rem 0.75rem;
+    justify-content: space-between;
+    align-items:center;
+    border-radius: 0.5625rem;
+}
+.picandtitle img{
+    align-self: center;
+    width: 2.3125rem;
+    margin: 0rem 0.5rem;
+    border-radius: 0.3125rem;
+}
+
+.timestamp{
+    margin: 0 0;
+    padding: 1.875rem;
+}
+.songlistplay{
+    margin: 0 0.9375rem
+}
+
+.playgif{
+    margin: 0.625rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.playgif img{
+    width: 4.375rem;
+    transition: opacity 1s ease-in;
+}
+.songlistplay i{
+    cursor:pointer;
+}
+.picandtitle{
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width: 998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width: 768px){
+    html{
+        font-size: 45%;
+    }
+}
+
+@media(max-width: 440px){
+    html{
+        font-size: 35%;
+    }
+}
+
+.error{
+    color:rgb(255, 0, 0);
+    visibility: hidden;
+}
